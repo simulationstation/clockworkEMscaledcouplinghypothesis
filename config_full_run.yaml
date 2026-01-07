@@ -1,0 +1,22 @@
+data:
+  base_dir: data
+  cache_dir: data/cache
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+output_dir: outputs
+seed: 42
+log_level: INFO
+
+bootstrap:
+  n_bootstrap: 1000
+  seed: 42
+  use_parallel: true
+
+parallel:
+  n_jobs: 12
+
+np:
+  n_bootstrap: 500
+  n_global_bootstrap: 500
+  n_starts: 12
